@@ -1,0 +1,21 @@
+# https://editorconfig.org/
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = false
+indent_style = space
+# Transition Creative prefers 2 spaces:
+indent_size = 2
+trim_trailing_whitespace = true
+
+# Markdown needs 4 spaces, see
+# https://markdown-guide.readthedocs.io/en/latest/basics.html#lists-nested
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2

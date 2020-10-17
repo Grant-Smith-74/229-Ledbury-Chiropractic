@@ -1,0 +1,11 @@
+table
+  td,
+  th {
+    vertical-align: top;
+    &:not([align]) {
+      text-align: left;
+    }
+  th {
+    color: inherit;
+  }
+}

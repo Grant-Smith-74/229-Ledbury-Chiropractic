@@ -1,0 +1,25 @@
+.article {
+  background-color: $white;
+  padding: $size-scale-800;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-height: calc(100vh - 318.4px);
+  border: 1px solid $primary-glare;
+  border-radius: 8px;
+
+  .column {
+    position: relative;
+    &:last-of-type {
+      &:before {
+        position: absolute;
+        left: -$size-scale-800;
+        top: 0;
+        content: '';
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: $border;
+      }
+    }
+  }
+}

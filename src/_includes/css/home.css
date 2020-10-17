@@ -1,0 +1,27 @@
+.article {
+  background-color: #FEFCFB;
+  padding: 3.157rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-height: calc(100vh - 318.4px);
+  border: 1px solid #E6E6E6;
+  border-radius: 8px;
+}
+
+.article .column {
+  position: relative;
+}
+
+.article .column:last-of-type:before {
+  position: absolute;
+  left: -3.157rem;
+  top: 0;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #E6E6E6;
+}
+
+
+/*# sourceMappingURL=home.css.map*/

@@ -1,0 +1,175 @@
+$content-blockquote-background-color: $text;
+$content-blockquote-border-left: 5px solid $text;
+$content-blockquote-padding: $size-scale-500;
+
+$content-table-cell-border: 1px solid $text;
+$content-table-cell-border-width: 0 0 1px;
+$content-table-cell-padding: 0.5em 0.75em;
+$content-table-cell-heading-color: inherit;
+$content-table-head-cell-border-width: 0 0 2px;
+$content-table-head-cell-color: inherit;
+$content-table-foot-cell-border-width: 2px 0 0;
+$content-table-foot-cell-color: inherit;
+
+.content > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content > * + * {
+  margin-top: $size-scale-500;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  p {
+    max-width: 48ch;
+  }
+
+  li + li {
+    margin-top: 0.25em;
+  }
+
+  blockquote {
+
+    .citation {
+      font-style: italic;
+      color: #525150;
+    }
+    .author {
+      font-weight: $bold;
+      color: darken(#525150, 12%);
+    }
+  }
+
+  ol {
+    margin-top: 1em;
+    list-style-position: outside;
+
+    &:not([type]) {
+      list-style-type: decimal;
+
+      &.is-lower-alpha {
+        list-style-type: lower-alpha;
+      }
+
+      &.is-lower-roman {
+        list-style-type: lower-roman;
+      }
+
+      &.is-upper-alpha {
+        list-style-type: upper-alpha;
+      }
+
+      &.is-upper-roman {
+        list-style-type: upper-roman;
+      }
+    }
+  }
+
+  ul {
+    margin-top: 1em;
+    list-style: disc outside;
+
+    ul {
+      margin-top: 0.5em;
+      list-style-type: circle;
+
+      ul {
+        list-style-type: square;
+      }
+    }
+  }
+
+  figure {
+    margin-right: 2em;
+    margin-left: 2em;
+    text-align: center;
+
+    &:not(:first-child) {
+      margin-top: 2em;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2em;
+    }
+
+    img {
+      display: inline-block;
+    }
+
+    figcaption {
+      font-style: italic;
+    }
+  }
+
+  pre {
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
+
+    @include overflow-touch;
+  }
+
+  sup,
+  sub {
+    font-size: 75%;
+  }
+
+  table {
+    width: 100%;
+
+    td,
+    th {
+      padding: $content-table-cell-padding;
+      border: $content-table-cell-border;
+      border-width: $content-table-cell-border-width;
+      vertical-align: top;
+    }
+
+    th {
+      color: $content-table-cell-heading-color;
+
+      &:not([align]) {
+        text-align: inherit;
+      }
+    }
+
+    thead {
+      td,
+      th {
+        border-width: $content-table-head-cell-border-width;
+        color: $content-table-head-cell-color;
+      }
+    }
+
+    tfoot {
+      td,
+      th {
+        border-width: $content-table-foot-cell-border-width;
+        color: $content-table-foot-cell-color;
+      }
+    }
+
+    tbody {
+      tr {
+        &:last-child {
+          td,
+          th {
+            border-bottom-width: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .tabs {
+    li + li {
+      margin-top: 0;
+    }
+  }
+
+}

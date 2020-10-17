@@ -1,0 +1,207 @@
+// https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/ //
+
+fieldset {
+  border: none;
+}
+
+.horizontal-field {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  @include respond-to('medium') {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+}
+
+.horizontal-field > * + * {
+  margin-top: $size-scale-200;
+
+  @include respond-to('medium'){
+    margin-top: 0;
+  }
+}
+
+
+label {
+  display: block;
+  margin-bottom: $size-scale-100;
+  width: 100%;
+  color: $text;
+  line-height: 1.2;
+
+  @extend .small;
+
+  .require {
+    color: $primary;
+  }
+}
+
+input[type=text],
+input[type=date],
+input[type=time],
+input[type=email],
+textarea,
+select {
+  padding: $size-scale-200;
+  width: 100%;
+  height: 45px;
+  border: 1px $border solid;
+  border-radius: $size-scale-100;
+  background-color: $white;
+  color: $text;
+
+  appearance:none;
+  @include fluid-font(3vw, 0.781em, 0.938em, 13.75px);
+}
+
+input[type=radio] {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  padding: $size-scale-400;
+  width: 100%;
+  height: 200px;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px $border solid;
+  border-left: none;
+  border-radius: 0px;
+  background-color: $white;
+  color: $text;
+}
+
+input::placeholder {
+  color: $quaternary-glare;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+input[type=time]:focus,
+input[type=email]:focus,
+input[type=radio]:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  border: 1px solid $primary;
+  box-shadow: 0 0 5px $primary;
+}
+
+select {
+  background-image: url('/assets/svg/down-arrow.svg');
+  background-position-x: 94%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+}
+
+// Check box + Radio Buttons
+
+.checkbox_cnt {
+  position: relative;
+  display: block;
+  padding-left: 35px;
+  cursor: pointer;
+
+  user-select: none;
+
+  input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px $border solid;
+    border-radius: 4px;
+    background-color: $white;
+    line-height: 25px;
+  }
+  .radio {
+    position: absolute;
+    top: 3.5px;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px $border solid;
+    border-radius: 50%;
+    background-color: $white;
+    line-height: 25px;
+  }
+
+  p {
+    color: $text;
+    line-height: 25px;
+  }
+
+}
+
+.checkbox_cnt:hover input ~ .checkmark,
+.checkbox_cnt:hover input ~ .radio {
+  background-color: $primary-glare;
+}
+
+.checkbox_cnt input:checked ~ .checkmark,
+.checkbox_cnt input:checked ~ .radio {
+  background-color: $primary;
+}
+
+.checkmark:after {
+  position: absolute;
+  display: none;
+  content: "";
+}
+
+.checkbox_cnt input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox_cnt .checkmark:after {
+  top: 6px;
+  left: 9px;
+  width: 6px;
+  height: 11px;
+  border: solid $white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+// Alerts
+
+.alert {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  font-weight: 500;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.alert-warning {
+  border-left: 3px solid $warning;
+  background-color: $warning-light;
+  color: $text;
+}
+
+.alert-success {
+  border-left: 3px solid $success;
+  background-color: $success-light;
+  color: $text;
+}
+
+// HONEY POT
+
+.honeypot {
+  @extend .visually-hidden;
+}

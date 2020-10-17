@@ -1,0 +1,82 @@
+img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+// See https://ratiobuddy.com/ for aspect ratios.
+
+.outer-1by1 {
+  position: relative;
+
+  &:before {
+    display: block;
+    padding-top: (1 / 1) * 100%;
+    width: 100%;
+    content: '';
+  }
+  .inner-1by1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.outer-5by3 {
+  position: relative;
+
+  &:before {
+    display: block;
+    padding-top: (3 / 5) * 100%;
+    width: 100%;
+    content: '';
+  }
+
+  .inner-5by3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.outer-15by9 {
+  position: relative;
+
+  &:before {
+    display: block;
+    padding-top: (9 / 15) * 100%;
+    width: 100%;
+    content: '';
+  }
+  .inner-15by9 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.outer-16by9 {
+  position: relative;
+
+  &:before {
+    display: block;
+    padding-top: (9 / 16) * 100%;
+    width: 100%;
+    content: '';
+  }
+  .inner-16by9 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+ }
+}

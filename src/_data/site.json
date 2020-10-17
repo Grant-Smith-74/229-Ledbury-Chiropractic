@@ -1,0 +1,32 @@
+{
+  "name":             "Ledbury Chiropractic Clinic Ltd",
+  "url":              "https://ledburychiropractic.co.uk",
+  "tagline":          "Treating every patient as the individual that they are.",
+  "authorName":       "Transition Creative Ltd",
+  "authorEmail":      "hello@transition-creative.co.uk",
+  "company": {
+    "name":           "Ledbury Chiropractic Clinic Ltd",
+    "number":         "07741904",
+    "data":           "#####"
+  },
+  "meta": {
+    "title":          "Ledbury Chiropractic Clinic Ltd",
+    "description":    "Ledbury Chiropractic Clinic treating every patient as the individual that they are.",
+    "keywords":       "chiropractic, ledbury, general chiropractic council, british chiropractic association, personalised treatment, diagnosis, treatment, management, musculoskeletal conditions"
+  },
+  "images": {
+    "favicon":        "/assets/img/favicon.ico",
+    "social":         "/assets/images/social-share-img.jpg"
+},
+  "address": {
+    "street":         "Orchard Lane, ",
+    "city":           "Ledbury, ",
+    "county":         "Herefordshire, ",
+    "postcode":       "HR8 1DQ"
+  },
+  "contact": {
+    "phoneInput":     "01531635999",
+    "phoneDisplay":   "01531 635999",
+    "email":          "info@ledburychiropractic.co.uk"
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.ledburychiropractic.co.uk/sitemap.xml

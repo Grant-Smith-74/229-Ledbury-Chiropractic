@@ -1,0 +1,37 @@
+.columns > * + * {
+  margin-top: $size-scale-600;
+
+  @include respond-to('medium') {
+    margin-top: 0;
+  }
+}
+
+.columns {
+  @include columns;
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-offset {
+  grid-template-columns: 1fr 0.45fr;
+}
+
+// Align content
+
+.v-align-top {
+  align-items: start;
+}
+
+.v-align-center {
+  align-items: center;
+}

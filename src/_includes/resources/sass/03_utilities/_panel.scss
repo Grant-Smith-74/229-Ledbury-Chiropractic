@@ -1,0 +1,9 @@
+.panel {
+  margin: $size-scale-700 0;
+  padding: $size-scale-700 0;
+
+  @include respond-to('medium') {
+    margin: $size-scale-800 0;
+    padding: $size-scale-800 0;
+  }
+}

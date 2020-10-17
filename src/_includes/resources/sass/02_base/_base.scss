@@ -1,0 +1,69 @@
+// Global styles start
+
+body {
+  background: $body-colour;
+  color: $text;
+  font-family: $family-primary;
+  line-height: $leading-loose;
+  font-weight: $normal;
+
+  @include fluid-font(3vw, 1em, 1.125em, 17px);
+  text-rendering: optimizeSpeed;
+}
+
+a:not([class]) {
+  color: $link;
+
+  text-decoration-color: $link;
+
+  &:hover {
+    color: $link-hover;
+
+    text-decoration-color: $link;
+    transition: 0.3s;
+  }
+}
+
+:focus {
+  outline: 2px dashed $link;
+  outline-offset: 0.25rem;
+}
+
+main:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  line-height: $leading-flat;
+}
+
+::selection {
+  background: rgba($primary, 0.99);
+  color: $black;
+}
+
+// Scrollbar styles
+::-webkit-scrollbar {
+  height: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid $text;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: $text;
+}
+
+.noscroll {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}

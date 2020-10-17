@@ -1,0 +1,33 @@
+footer {
+  background-color: $secondary-shade;
+  color: $white;
+  font-size: $size-scale-300;
+  font-weight: $light;
+  padding-top: $size-scale-300;
+  padding-bottom: $size-scale-300;
+  text-align: center;
+  @include respond-to('medium'){
+    text-align: left;
+  }
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      color: $primary-glare;
+      text-decoration: underline;
+    }
+  }
+  .columns {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    .column {
+      &:last-of-type {
+        margin-top: $size-scale-300;
+        @include respond-to('small'){
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

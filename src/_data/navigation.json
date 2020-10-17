@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "navText": "Home",
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "navText": "Important Notice",
+      "title": "Important Notice",
+      "url": "/important-notice/"
+    },
+    {
+      "navText": "What is Chiropractic?",
+      "title": "What is Chiropractic?",
+      "url": "/what-is-chiropractic/"
+    },
+    {
+      "navText": "Useful Information",
+      "title": "Useful Information",
+      "url": "/useful-information/"
+    },
+    {
+      "navText": "About Your Visit",
+      "title": "About Your Visit",
+      "url": "/about-your-visit/"
+    },
+    {
+      "navText": "Prices and Opening Hours",
+      "title": "Prices and Opening Hours",
+      "url": "/prices-and-opening-hours/"
+    },
+    {
+      "navText": "Resident Chiropractor",
+      "title": "Resident Chiropractor",
+      "url": "/resident-chiropractor/"
+    },
+    {
+      "navText": "Contact",
+      "title": "Contact Ledbury Chiropractic Clinic",
+      "url": "/contact/"
+    }
+  ]
+}

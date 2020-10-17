@@ -1,0 +1,49 @@
+{% set pageTitle = title + ' - ' + site.name -%}
+
+{# We don't want any duplication. This is likely for the home page. #}
+{% if site.name === title -%}
+  {% set pageTitle = title -%}
+{% endif -%}
+
+{% set currentUrl = site.url + page.url -%}
+
+{# If the page’s Front Matter has specific metaTitle and/or metaDesc items, switch them into the mix. #}
+{% if metaTitle -%}
+  {% set pageTitle = metaTitle -%}
+{% endif -%}
+
+{% if not metaDesc -%}
+  {% set metaDesc = site.meta.description -%}
+{% endif -%}
+
+{% if not metaKeywords -%}
+  {% set metaKeywords = site.meta.keywords -%}
+{% endif -%}
+    <title>{{ pageTitle }} 👋</title>
+    <link rel="canonical" href="{{ currentUrl }}" />
+    <meta name="description" content="{{ metaDesc }}">
+    <meta name="keywords" content="{{ metaKeywords }}" >
+    <meta name="author" content="{{ site.authorName }}">
+    <meta name="robots" content="all">
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:title" content="{{ pageTitle }}" />
+    <meta property="og:description" content="{{ metaDesc }}" />
+    <meta property="og:url" content="{{ currentUrl }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en-GB">
+    {% if site.images.social -%}
+    <meta property="og:image" content="{{ site.images.social }}" />
+    <meta property="og:image:alt" content="Page image for {{ site.name }}" />
+    {% endif -%}
+    {% if site.social_links.twitter -%}
+    <meta name="twitter:site" content="{{ site.social_links.twitter }}" />
+    {% endif -%}
+    <meta name="twitter:title" content="{{ site.meta.title }}" />
+    <meta name="twitter:description" content="{{ metaDesc }}" />
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% if site.images.social -%}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ site.images.social }}" />
+    <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
+    {% endif -%}
+    <link rel="icon" type="image/png" href="{{ site.images.favicon }}">

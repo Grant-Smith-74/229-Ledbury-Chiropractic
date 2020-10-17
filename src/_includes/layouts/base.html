@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/base_layout/meta-info.html" -%}
+    {% set css %}
+      {% include "css/critical.css" %}
+    {% endset %}
+    {% set pageCss %}
+      {% if pageCriticalStyles -%}
+        {% for item in pageCriticalStyles -%}
+          {% include item %}
+        {% endfor -%}
+      {% endif -%}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+    <style>{{ pageCss | cssmin | safe }}</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Ledbury Chiropractic Clinic Ltd",
+        "alternateName": "Ledbury Chiropractic",
+        "legalName": "Ledbury Chiropractic Clinic Ltd",
+        "description": "Ledbury Chiropractic Clinic treating every patient as the individual that they are.",
+        "url": "https://ledburychiropractic.co.uk/",
+        "logo": "https://ledburychiropractic.co.uk/assets/svg/Square-One-Logo.svg",
+        "email": "info@ledburychiropractic.co.uk,
+        "telephone": "01531 635999",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "01531 635999",
+          "contactType": "customer service",
+          "areaServed": "GB",
+          "availableLanguage": "English"
+        }
+      },
+    </script>
+    {% if env.environment === "development" -%}
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    {% else -%}
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js" defer></script>
+    {% endif -%}
+  </head>
+  <body class="site-wrap">
+    {% include "partials/base_layout/site-head.html" -%}
+    <main tabindex="-1" id="main-content" class="flow__xl">
+      {% block content -%} {% endblock -%}
+    </main>
+    {% include "partials/base_layout/footer.html" -%}
+  </body>
+</html>
