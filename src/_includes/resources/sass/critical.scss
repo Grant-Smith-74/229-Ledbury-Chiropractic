@@ -9,9 +9,9 @@
 @import '03_utilities/flow';
 @import '03_utilities/site-wrap';
 @import '03_utilities/typography';
-@import '03_utilities/visually-hidden';
 @import '03_utilities/wrapper';
 
+@import '04_blocks/article';
 @import '04_blocks/buttons';
 @import '04_blocks/content';
 @import '04_blocks/footer';
@@ -19,5 +19,6 @@
 @import '04_blocks/main';
 @import '04_blocks/navigation';
 @import '04_blocks/transition';
+@import '04_blocks/videos';
 
 @import '05_fonts/fonts';

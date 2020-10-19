@@ -5,7 +5,10 @@
   margin-bottom: auto;
   min-height: calc(100vh - 318.4px);
   border: 1px solid #E6E6E6;
-  border-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .article .column {
@@ -14,13 +17,18 @@
 
 .article .column:last-of-type:before {
   position: absolute;
-  left: -3.157rem;
   top: 0;
   content: "";
   display: block;
-  width: 1px;
-  height: 100%;
   background-color: #E6E6E6;
+}
+
+@media (min-width: 1023px) {
+  .article .column:last-of-type:before {
+    left: -1.5rem;
+    width: 1px;
+    height: 100%;
+  }
 }
 
 

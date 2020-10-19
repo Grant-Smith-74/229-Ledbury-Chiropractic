@@ -1,5 +1,10 @@
 <article aria-label="Body Content">
   <div class="wrapper">
+    <div class="columns">
+      <div class="column">
+        <img src="/assets/img/cropped-ledburycc3.jpg" title="{{ site.name }}" alt="{{ site.name }}">
+      </div>
+    </div>
     <div class="article columns col-offset">
       <div class="column content">
         <h1>{{ title }}</h1>
@@ -7,15 +12,19 @@
       </div>
       <div class="column content">
         <aside class="flow">
-          <h3>Testimonials</h3>
+          <h2 class="h3">Testimonials</h2>
           <blockquote class="flow__sm">
-            <p class="citation">Clear treatment plan with measured performance to assess progress; all with a personal touch.</p>
-            <p class="author">A. Ollerenshaw</p>
+            <p class="citation">{{ citation_01 }}</p>
+            <p class="author">{{ author_01 }}</p>
           </blockquote>
+          {% if citation_02 %}
           <blockquote class="flow__sm">
-            <p class="citation">Never had treatment before where I have actually felt the change and benefit. Headaches improved rapidly!</p>
-            <p class="author">A. Stirzaker</p>
+            <p class="citation">{{ citation_02 }}</p>
+            <p class="author">{{ author_02 }}</p>
           </blockquote>
+          {% endif %}
+          <h3>Opening</h3>
+          <p class="opening_hours"><strong>{{ site.opening.lead_text }}</strong>{{ site.opening.body_text }}</p>
         </aside>
       </div>
     </div>

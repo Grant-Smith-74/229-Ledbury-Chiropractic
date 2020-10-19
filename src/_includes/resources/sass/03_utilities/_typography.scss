@@ -17,18 +17,11 @@ h1,
 
 h2,
 .h2 {
-  line-height: $leading-tight;
-
-  @include fluid-font(3vw, 1.944rem, 2.333rem, 34.21px);
+  @include fluid-font(3vw, 1.620rem, 1.944rem, 28.51px);
 }
 
 h3,
 .h3 {
-  @include fluid-font(3vw, 1.620rem, 1.944rem, 28.51px);
-}
-
-h4,
-.h4 {
   @include fluid-font(3vw, 1.350rem, 1.620rem, 23.76px);
 }
 

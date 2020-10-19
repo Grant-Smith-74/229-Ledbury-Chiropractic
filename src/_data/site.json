@@ -28,5 +28,9 @@
     "phoneInput":     "01531635999",
     "phoneDisplay":   "01531 635999",
     "email":          "info@ledburychiropractic.co.uk"
+  },
+  "opening": {
+    "lead_text":      "Ledbury Chiropractic Clinic",
+    "body_text":      " is open Monday to Friday from 9:30am to 12:00pm and 2:00pm to 7:00pm."
   }
 }

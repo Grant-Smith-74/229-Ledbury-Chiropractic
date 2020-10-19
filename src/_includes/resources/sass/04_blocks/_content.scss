@@ -33,11 +33,12 @@ $content-table-foot-cell-color: inherit;
     margin-top: 0.25em;
   }
 
-  blockquote {
+  blockquote,
+  .opening_hours {
+    color: #525150;
 
     .citation {
       font-style: italic;
-      color: #525150;
     }
     .author {
       font-weight: $bold;

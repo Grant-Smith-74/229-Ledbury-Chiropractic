@@ -1,7 +1,10 @@
 ---
 layout: 'layouts/home.html'
 title: 'Welcome to Ledbury Chiropractic Clinic'
-metaDesc: 'Ledbury Chiropractic Clinic treating every patient as the individual that they are'
+citation_01: 'Clear treatment plan with measured performance to assess progress; all with a personal touch.'
+author_01: 'A. Ollerenshaw'
+citation_02: 'Never had treatment before where I have actually felt the change and benefit. Headaches improved rapidly!'
+author_02: 'A. Stirzaker'
 ---
 We hope you find this site useful, but if you have any questions about chiropractic or whether we could help with your particular problem, [please get in touch for an informal, no obligation, conversation](/contact/ "Contact Ledbury Chiropractic Clinic Ltd").
 

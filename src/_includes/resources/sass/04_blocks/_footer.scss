@@ -10,8 +10,8 @@ footer {
     text-align: left;
   }
   a {
-    color: $white;
-    text-decoration: none;
+    color: $white !important;
+    text-decoration: none !important;
     &:hover {
       color: $primary-glare;
       text-decoration: underline;

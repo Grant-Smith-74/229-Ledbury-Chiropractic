@@ -8,15 +8,8 @@
     {% set css %}
       {% include "css/critical.css" %}
     {% endset %}
-    {% set pageCss %}
-      {% if pageCriticalStyles -%}
-        {% for item in pageCriticalStyles -%}
-          {% include item %}
-        {% endfor -%}
-      {% endif -%}
-    {% endset %}
     <style>{{ css | cssmin | safe }}</style>
-    <style>{{ pageCss | cssmin | safe }}</style>
+    {% include "partials/base_layout/favicon.html" -%}
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",

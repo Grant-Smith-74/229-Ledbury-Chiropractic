@@ -60,6 +60,8 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy({'src/_includes/resources/svg': 'assets/svg'});
     eleventyConfig.addPassthroughCopy('src/robots.txt');
     eleventyConfig.addPassthroughCopy({'src/_includes/fonts': '/fonts'});
+    eleventyConfig.addPassthroughCopy({'src/_includes/downloads': '/downloads'});
+    eleventyConfig.addPassthroughCopy({'src/_includes/favicon': '/favicon'});
 
     return {
         templateFormats: ['md', 'njk'],
