@@ -1,6 +1,6 @@
 .article {
   background-color: $white;
-  padding: $size-scale-800;
+  padding: $size-scale-500;
   margin-top: auto;
   margin-bottom: auto;
   min-height: calc(100vh - 318.4px);
@@ -9,6 +9,10 @@
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
+
+  @include respond-to('medium'){
+    padding: $size-scale-800;
+  }
 
   .column {
     position: relative;

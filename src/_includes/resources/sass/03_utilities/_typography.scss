@@ -6,13 +6,9 @@ h4 {
   color: $secondary-shade;
 }
 
-.hero {
-  @include fluid-font(3vw, 2.799rem, 3.359rem, 49.27px);
-}
-
 h1,
 .h1 {
-  @include fluid-font(3vw, 2.333rem, 2.799rem, 41.05px);
+  @include fluid-font(3vw, 1.944rem, 2.333rem, 34.21px);
 }
 
 h2,

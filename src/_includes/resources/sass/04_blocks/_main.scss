@@ -1,4 +1,9 @@
 #main-content {
-  margin-top: $size-scale-major;
-  margin-bottom: $size-scale-major;
+  margin-top: $size-scale-700;
+  margin-bottom: $size-scale-700;
+
+  @include respond-to('medium'){
+    margin-top: $size-scale-major;
+    margin-bottom: $size-scale-major;
+  }
 }

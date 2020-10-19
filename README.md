@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c89eb28-c727-4fd4-b341-e118ddf01a28/deploy-status)](https://app.netlify.com/sites/fervent-torvalds-f7c15f/deploys)
+
 # 229 Ledbury Chiropractic
 
 Static site built with [Eleventy](https://www.11ty.dev/) and [Laravel Mix](https://laravel-mix.com/docs/5.0/basic-example) or 229 Ledbury Chiropractic. :yum:
