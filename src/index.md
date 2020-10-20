@@ -10,4 +10,4 @@ We hope you find this site useful, but if you have any questions about chiroprac
 
 We welcome patients of all ages. We have an integrated approach to healthcare and, with your consent, prefer to work alongside your GP to provide optimum care.
 
-Our ground floor clinic has dedicated parking and is easily accessible from Hereford, Worcester, Tewkesbury and Ross-on-Wye and is only minutes away from the M50. We offer morning, afternoon and evening appointments. We also offer Saturday morning appointments by arrangement.
+Our ground floor clinic has dedicated parking and is easily accessible from Hereford, Worcester, Tewkesbury and Ross-on-Wye and is only minutes away from the M50. We offer morning, afternoon and evening appointments.
