@@ -25,4 +25,6 @@
   {% include "js/main.js" %}
 {% endset %}
 <script>{{ js | jsmin | safe }}</script>
+{% if env.environment === 'production' %}
 <script src="https://cdn.usefathom.com/script.js" data-site="WABXWZQK" defer></script>
+{% endif %}
