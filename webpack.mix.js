@@ -3,6 +3,8 @@ let mix = require("laravel-mix");
 // Run mix
 mix
   .sass("src/_includes/resources/sass/critical.scss", "src/_includes/css/")
+  .js("src/_includes/resources/js/main.js", "src/_includes/js/")
+  .sourceMaps(true, "source-map");
 
 // Full API
 // mix.js(src, output);
