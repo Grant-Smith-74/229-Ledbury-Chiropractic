@@ -1,6 +1,6 @@
 {
-    "/dist/assets/js/map/map.js": "/dist/assets/js/map/map.js",
-    "/dist/assets/js/map/map.js.map": "/dist/assets/js/map/map.js.map",
+    "/dist/assets/js/map.js": "/dist/assets/js/map.js",
+    "/dist/assets/js/map.js.map": "/dist/assets/js/map.js.map",
     "/src/_includes/js/main.js": "/src/_includes/js/main.js",
     "/src/_includes/css/critical.css": "/src/_includes/css/critical.css",
     "/src/_includes/js/main.js.map": "/src/_includes/js/main.js.map",
