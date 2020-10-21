@@ -21,10 +21,9 @@
     </div>
   </div>
 </footer>
-{% set js %}
-  {% include "js/main.js" %}
-{% endset %}
-<script>{{ js | jsmin | safe }}</script>
-{% if env.environment === 'production' %}
+{% if env.environment === 'development' -%}
+<script src="/assets/js/main.js" type="text/javascript"></script>
+{% else -%}
+<script src="/assets/js/main.min.js" type="text/javascript"></script>
 <script src="https://cdn.usefathom.com/script.js" data-site="WABXWZQK" defer></script>
-{% endif %}
+{% endif -%}

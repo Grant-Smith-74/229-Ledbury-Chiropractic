@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/base_layout/meta-info.html" -%}
-    {% if env.environment === 'production' %}
-    <!-- INLINE CSS-->
-    {% else %}
-      <link rel="stylesheet" href="/assets/css/critical.css">
-    {% endif %}
+    {% if env.environment === 'development' -%}
+    <link rel="stylesheet" href="/assets/css/critical.css">
+    {% else -%}
+    <link rel="stylesheet" href="/assets/css/critical.min.css">
+    {% endif -%}
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
