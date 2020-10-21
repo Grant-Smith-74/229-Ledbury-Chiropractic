@@ -1,0 +1,39 @@
+{% extends "layouts/base.html" -%}
+
+{% set pageHeaderTitle = title -%}
+
+{% block content -%}
+<article aria-label="Body Content">
+  <div class="wrapper">
+    <div class="columns">
+      <div class="column">
+        <img src="/assets/img/cropped-ledburycc3.jpg" width="1080" height="280" title="{{ site.name }}" alt="{{ site.name }}" >
+      </div>
+    </div>
+    <div class="article columns col-offset">
+      <div class="column content">
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+        {% include "partials/_map.html" -%}
+      </div>
+      <div class="column content">
+        <aside class="flow">
+          <h2 class="h3">Testimonials</h2>
+          <blockquote class="flow__sm">
+            <p class="citation">{{ citation_01 }}</p>
+            <p class="author">{{ author_01 }}</p>
+          </blockquote>
+          {% if citation_02 %}
+          <blockquote class="flow__sm">
+            <p class="citation">{{ citation_02 }}</p>
+            <p class="author">{{ author_02 }}</p>
+          </blockquote>
+          {% endif %}
+          <h3>Opening</h3>
+          <p class="opening_hours"><strong>{{ site.opening.lead_text }}</strong>{{ site.opening.body_text }}</p>
+        </aside>
+      </div>
+    </div>
+  </div>
+</article>
+{% endblock -%}

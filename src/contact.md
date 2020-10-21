@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/home.html'
+layout: 'layouts/contact.html'
 title: 'Contact Ledbury Chiropractic Clinic'
 citation_01: 'Positive and constructive approach to treatment. Excellent and relaxed facilities. Treatment always beneficial, making steady progress with a longstanding problem. Several other associated problems treated successfully.'
 author_01: 'C. Nield'
@@ -14,8 +14,8 @@ Email:      <a href="mailto:info@ledburychiropractic.co.uk" target="blank" title
 
 **Find us**
 
-Ledbury Chiropractic Clinic  
-Orchard Lane  
-Ledbury  
-Herefordshire  
+Ledbury Chiropractic Clinic
+Orchard Lane
+Ledbury
+Herefordshire
 HR8 1DQ

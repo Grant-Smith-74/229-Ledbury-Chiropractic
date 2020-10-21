@@ -2,10 +2,19 @@ let mix = require("laravel-mix");
 
 // Run mix
 mix
+  .setPublicPath('dist')
   .sass("src/_includes/resources/sass/critical.scss", "src/_includes/css/")
   .js("src/_includes/resources/js/main.js", "src/_includes/js/")
+  .js("src/_includes/resources/js/map.js", "/assets/js/")
+  .version()
   .sourceMaps(true, "source-map");
 
+// Production only
+if (mix.inProduction()) {
+  mix
+    // Minifies CSS & JS files
+    .minify('/assets/js/map.js').version();
+}
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.

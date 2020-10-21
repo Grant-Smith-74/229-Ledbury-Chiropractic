@@ -4,6 +4,7 @@
     "Uncompiled",
     "eleventy",
     "jsmin",
-    "personalised"
+    "personalised",
+    "tabindex"
   ]
 }
