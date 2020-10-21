@@ -10,27 +10,36 @@
     {% else -%}
     <link rel="stylesheet" href="/assets/css/critical.min.css">
     {% endif -%}
-    <script type="application/ld+json">
+    <script type='application/ld+json'>
       {
-        "@context": "http://schema.org",
-        "@type": "Organization",
+        "@context": "http://www.schema.org",
+        "@type": "ProfessionalService",
         "name": "Ledbury Chiropractic Clinic Ltd",
-        "alternateName": "Ledbury Chiropractic",
-        "legalName": "Ledbury Chiropractic Clinic Ltd",
+        "url": "https://ledburychiropractic.co.uk",
+        "logo": "https://ledburychiropractic.co.uk/assets/svg/Ledbury-Chiropractic-Clinic-Logo.svg",
+        "image": "https://ledburychiropractic.co.uk/assets/img/social-share-img.jpg",
         "description": "Ledbury Chiropractic Clinic treating every patient as the individual that they are.",
-        "url": "https://ledburychiropractic.co.uk/",
-        "logo": "https://ledburychiropractic.co.uk/assets/svg/Square-One-Logo.svg",
-        "email": "info@ledburychiropractic.co.uk,
-        "telephone": "01531 635999",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Orchard Lane, ",
+          "addressLocality": "Ledbury",
+          "addressRegion": "Herefordshire",
+          "postalCode": "HR8 1DQ",
+          "addressCountry": "United Kingdom"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "52.040615",
+          "longitude": "-2.426684"
+        },
+        "openingHours": "Mo, Tu, We, Th, Fr 09:30-19:00",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "01531 635999",
-          "contactType": "customer service",
-          "areaServed": "GB",
-          "availableLanguage": "English"
+          "telephone": "01531635999",
+          "contactType": "customer service"
         }
-      },
-    </script>
+      }
+       </script>
     {% if env.environment === "development" -%}
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     {% else -%}

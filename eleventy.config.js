@@ -55,5 +55,4 @@ module.exports = eleventyConfig => {
             data: '_data'
         }
     }
-
 }
