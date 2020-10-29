@@ -42,10 +42,11 @@ header {
     .menu-container {
       position: fixed;
       top: 85px;
+      bottom: 0;
       right: -400px;
       z-index: 50;
       display: none;
-      overflow: hidden;
+      overflow-x: hidden;
       width: 100%;
       background-color: $secondary-shade;
       opacity: 0;
