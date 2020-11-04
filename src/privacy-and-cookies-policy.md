@@ -1,10 +1,10 @@
 ---
 layout: 'layouts/home.html'
 title: 'Privacy and Cookies Policy'
-citation_01: 'Heidi takes the time to research the causes and contributing factors that have led to discomfort enabling an accurate and meaningful diagnosis. Bespoke treatments are then applied to target specific areas of acute discomfort whilst building a longer term strategy to combat chronic aspects of patient discomfort. The approach employed by Heidi has resulted in a tangible and progressive improvement in my well-being.'
-author_01: 'T. Wright'
-citation_02: ''
-author_02: ''
+citation_01: 'I have been suffering from feeling crooked when riding, I could feel an improvement right from the first treatment.'
+author_01: 'Miss L. Pincus. 2019'
+citation_02: 'Excellent treatment, got straight to the problem and I feel the treatment has been of huge benefit to me and I can''t speak highly enough of the practitioner Heidi, I am so relieved and out of pain.'
+author_02: 'Mr J. McIntyre. 2013'
 ---
 Ledbury Chiropractic Clinic is registered with the Information Commissioner’s Office (ICO) in accordance with the Data Protection Act 1998 to ensure patient information is confidential and protected.
 

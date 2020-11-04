@@ -8,6 +8,6 @@ author_02: 'J. Gardner'
 ---
 Firstly, we hope you and your families are all safe and well during these unprecedented times each and every one of us finds ourselves in.
 
-Secondly, we would like to provide an update regarding the re-commencement of face to face consultations at Ledbury Chiropractic Clinic during this COVID-19 pandemic; we will be fully open again on 1st October so by all means, please telephone to either go through a free telephone consultation with the chiropractor, and/or, book an appointment.
+Secondly, we would like to reassure you that Ledbury Chiropractic Clinic will remain open throughout the COVID-19 government lock-down, so please do get in touch regarding any health issues. Unfortunately, it may be difficult to visit your GP practice so perhaps we can help at Ledbury Chiropractic Clinic.
 
-With very best wishes, Ledbury Chiropractic Clinic. 
+With very best wishes, Ledbury Chiropractic Clinic.

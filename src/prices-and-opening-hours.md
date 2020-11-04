@@ -1,10 +1,10 @@
 ---
 layout: 'layouts/home.html'
 title: 'Prices and Opening Hours'
-citation_01: 'Clear treatment plan with measured performance to assess progress; all with a personal touch.'
-author_01: 'A. Ollerenshaw'
-citation_02: 'Never had treatment before where I have actually felt the change and benefit. Headaches improved rapidly!'
-author_02: 'A. Stirzaker'
+citation_01: 'I came in with the hope of feeling better. However, thought it would be a lesser professional ''quick fix''. I have been surprised at how deep and effective the treatment has been, and also how prolonged. This was a good thing. I have enjoyed the treatments and feel that I am in a better place to work on things myself.'
+author_01: 'Mrs D. Porter. 2019'
+citation_02: 'Heidi has been very thorough and informative when helping me to recover. She is extremely professional and caring. I have been lucky to find her. Extremely careful during COVID pandemic to make sure we are as safe as possible. Thank you so much.'
+author_02: 'Mrs H. Tierney. 2020'
 ---
 Chiropractic is classed as private healthcare and payment is due at the end of each appointment.
 

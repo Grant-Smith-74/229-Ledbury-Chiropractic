@@ -1,10 +1,10 @@
 ---
 layout: 'layouts/contact.html'
 title: 'Contact Ledbury Chiropractic Clinic'
-citation_01: 'Positive and constructive approach to treatment. Excellent and relaxed facilities. Treatment always beneficial, making steady progress with a longstanding problem. Several other associated problems treated successfully.'
-author_01: 'C. Nield'
-citation_02: 'L.C.C. is an inviting and comfortable environment. The conduct and treatment is professional, helpful and appropriate. Thank you.'
-author_02: 'J. Gardner'
+citation_01: 'Extremely happy with advice and treatment.'
+author_01: 'Mr J. Hann. 2012'
+citation_02: 'The treatment has proved very beneficial for me and has enable me to walk with greater ease of movement and less pain. In fact, the treatment is giving me a new lease of life. Thank you Heidi.'
+author_02: 'Miss E. Furniss. 2013'
 ---
 Please get in touch if you have any questions or would like to make an appointment.
 

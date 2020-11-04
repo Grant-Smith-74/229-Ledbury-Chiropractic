@@ -1,10 +1,10 @@
 ---
 layout: 'layouts/home.html'
 title: 'Resident Chiropractor'
-citation_01: 'Positive and constructive approach to treatment. Excellent and relaxed facilities. Treatment always beneficial, making steady progress with a longstanding problem. Several other associated problems treated successfully.'
-author_01: 'C. Nield'
-citation_02: 'L.C.C. is an inviting and comfortable environment. The conduct and treatment is professional, helpful and appropriate. Thank you.'
-author_02: 'J. Gardner'
+citation_01: 'Pleased with treatment, advice very professional.'
+author_01: 'Mr M. Walker. 2012'
+citation_02: 'Excellent care, and very informative. Enjoy my treatment. '
+author_02: 'Mr R.Lunt. 2019'
 ---
 **Heidi Tulloch (Doctor of Chiropractic)**
 

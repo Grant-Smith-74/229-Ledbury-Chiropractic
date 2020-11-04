@@ -1,10 +1,10 @@
 ---
 layout: 'layouts/home.html'
 title: 'What is Chiropractic?'
-citation_01: 'L.C.C. is an inviting and comfortable environment. The conduct and treatment is professional, helpful and appropriate. Thank you.'
-author_01: 'J. Gardner'
-citation_02: ''
-author_02: ''
+citation_01: 'Thorough, thoughtful, caring, consistent advice, working in partnership to improve my health!'
+author_01: 'Mrs Friar. 2020'
+citation_02: 'Much more positive and proactive treatment than my previous clinic. More of a holistic approach which has been really helpful and I feel so much more positive, particularly physically.'
+author_02: 'Miss C Nicholls. 2020'
 ---
 We hope this page will give you all the information you need about your visit. If you have any questions about visiting a chiropractor or whether chiropractic could help you, [please get in touch for an informal, no obligation, conversation](/contact/ "Contact Ledbury Chiropractic Clinic Ltd").
 
