@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/home.html'
-title: 'What is Chiropractic?'
+title: 'About Your Visit'
 citation_01: 'Thorough, thoughtful, caring, consistent advice, working in partnership to improve my health!'
 author_01: 'Mrs Friar. 2020'
 citation_02: 'Much more positive and proactive treatment than my previous clinic. More of a holistic approach which has been really helpful and I feel so much more positive, particularly physically.'

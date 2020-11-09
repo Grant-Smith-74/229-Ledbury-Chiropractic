@@ -9,7 +9,7 @@ if (!!document.getElementById("map")) {
     container: "map",
     style: "mapbox://styles/mapbox/light-v9",
     zoom: 13.0,
-    center: [-2.426695, 52.040595],
+    center: [-2.426662, 52.040482],
   });
 
   // disable map zoom when using scroll
@@ -37,7 +37,7 @@ if (!!document.getElementById("map")) {
                 type: "Feature",
                 geometry: {
                   type: "Point",
-                  coordinates: ["-2.426695", "52.040595"],
+                  coordinates: ["-2.426662", "52.040482"],
                 },
               },
             ],

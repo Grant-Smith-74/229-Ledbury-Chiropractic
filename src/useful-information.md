@@ -1,9 +1,8 @@
 ---
 layout: 'layouts/home.html'
 title: 'Useful Information'
-citation_01: 'Heidi has been brilliant and helped me no end. The pain I experience is miles better and I now have ways of managing a lot of it myself. A lovely, warm and welcoming atmosphere and a proper friendly face! Heidi gets to know the real ''you'' as well as understanding your problem. I was scared at the thought of ever coming to a chiropractor – don''t knock it ''til you try it.
-Above and beyone on COVID safety too – extra gold star!'
-author_01: 'Mrs L. Russell. 2020'
+citation_01: 'Positive and constructive approach to treatment. Excellent and relaxed facilities. Treatment always beneficial, making steady progress with a longstanding problem. Several other associated problems treated successfully.'
+author_01: 'C. Nield'
 citation_02: ''
 author_02: ''
 ---
