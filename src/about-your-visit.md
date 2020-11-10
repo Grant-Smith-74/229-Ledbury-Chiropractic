@@ -5,6 +5,8 @@ citation_01: 'Thorough, thoughtful, caring, consistent advice, working in partne
 author_01: 'Mrs Friar. 2020'
 citation_02: 'Much more positive and proactive treatment than my previous clinic. More of a holistic approach which has been really helpful and I feel so much more positive, particularly physically.'
 author_02: 'Miss C Nicholls. 2020'
+citation_03: 'Excellent person, very professional and sorted out my back problem. Great work.'
+author_03: 'M. Woodhead. 2016'
 ---
 We hope this page will give you all the information you need about your visit. If you have any questions about visiting a chiropractor or whether chiropractic could help you, [please get in touch for an informal, no obligation, conversation](/contact/ "Contact Ledbury Chiropractic Clinic Ltd").
 

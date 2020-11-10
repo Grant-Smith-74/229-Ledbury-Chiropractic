@@ -23,6 +23,12 @@
             <p class="author">{{ author_02 }}</p>
           </blockquote>
           {% endif %}
+          {% if citation_03 %}
+          <blockquote class="flow__sm">
+            <p class="citation">{{ citation_03 }}</p>
+            <p class="author">{{ author_03 }}</p>
+          </blockquote>
+          {% endif %}
           <h3>Opening</h3>
           <p class="opening_hours"><strong>{{ site.opening.lead_text }}</strong>{{ site.opening.body_text }}</p>
         </aside>

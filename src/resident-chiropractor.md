@@ -3,8 +3,10 @@ layout: 'layouts/home.html'
 title: 'Resident Chiropractor'
 citation_01: 'Pleased with treatment, advice very professional.'
 author_01: 'Mr M. Walker. 2012'
-citation_02: 'Excellent care, and very informative. Enjoy my treatment. '
+citation_02: 'Excellent care, and very informative. Enjoy my treatment.'
 author_02: 'Mr R.Lunt. 2019'
+citation_03: 'Excellent treatment, got straight to the problem and I feel the treatment has been of huge benefit to me and I can''t speak highly enough of the practitioner Heidi, I am so relieved and out of pain.'
+author_03: 'Mr J. McIntyre. 2013'
 ---
 **Heidi Tulloch (Doctor of Chiropractic)**
 

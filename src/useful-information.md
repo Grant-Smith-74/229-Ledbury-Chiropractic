@@ -3,8 +3,10 @@ layout: 'layouts/home.html'
 title: 'Useful Information'
 citation_01: 'Positive and constructive approach to treatment. Excellent and relaxed facilities. Treatment always beneficial, making steady progress with a longstanding problem. Several other associated problems treated successfully.'
 author_01: 'C. Nield'
-citation_02: ''
-author_02: ''
+citation_02: 'Excellent service and care.'
+author_02: 'Mr G. Every. 2013'
+citation_03: 'I have been suffering from feeling crooked when riding, I could feel an improvement right from the first treatment.'
+author_03: 'Miss L. Pincus. 2019'
 ---
 Here is a selection of videos, website links and downloads that provide more information about chiropractic and back care. We hope you find them useful.
 
