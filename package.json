@@ -15,7 +15,8 @@
   "author": "Grant Smith",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.12.1",
+    "@quasibit/eleventy-plugin-sitemap": "^2.0.2",
     "browser-sync-webpack-plugin": "^2.0.1",
     "clean-css": "^4.2.3",
     "copy-webpack-plugin": "^6.2.1",
@@ -28,8 +29,5 @@
     "sass-loader": "^8.0.0",
     "terser": "^5.3.4",
     "vue-template-compiler": "^2.6.12"
-  },
-  "dependencies": {
-    "@quasibit/eleventy-plugin-sitemap": "^2.0.2"
   }
 }
