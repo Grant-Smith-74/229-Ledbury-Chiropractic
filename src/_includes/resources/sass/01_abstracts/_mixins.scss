@@ -3,7 +3,7 @@
   &:after {
     display: block;
     clear: both;
-    content: '';
+    content: "";
   }
 }
 
@@ -32,29 +32,36 @@
 
 // TYPOGRAPHY - FLUID //
 
-@mixin fluid-font($responsive, $min, $max: false, $fallback: false) {
-  font-size: $responsive;
+// @mixin fluid-font($responsive, $min, $max: false, $fallback: false) {
+//   font-size: $responsive;
 
-  $responsive-unitless: $responsive / ($responsive - $responsive + 1);
-  $dimension: if(unit($responsive) == "vh", "height", "width");
-  $min-breakpoint: $min / $responsive-unitless * 100;
-  @media (max-#{$dimension}: #{$min-breakpoint}) {
-    font-size: $min;
-  }
-  @if $max {
-    $max-breakpoint: $max / $responsive-unitless * 100;
-    @media (min-#{$dimension}: #{$max-breakpoint}) {
-      font-size: $max;
-    }
-  }
-  @if $fallback {
-    font-size: $fallback;
-  }
-}
+//   $responsive-unitless: calc($responsive / (($responsive - $responsive) + 1));
+//   $dimension: if(unit($responsive) == "vh", "height", "width");
+//   $min-breakpoint: calc(($min / $responsive-unitless) * 100);
+//   @media (max-#{$dimension}: #{$min-breakpoint}) {
+//     font-size: $min;
+//   }
+//   @if $max {
+//     $max-breakpoint: calc(($min / $responsive-unitless) * 100);
+//     @media (min-#{$dimension}: #{$max-breakpoint}) {
+//       font-size: $max;
+//     }
+//   }
+//   @if $fallback {
+//     font-size: $fallback;
+//   }
+// }
 
 // ANIMATIONS
 
-@mixin basic-transition($properties: (all), $duration: $transition-duration, $delay: null, $easing: $easing) {
+@mixin basic-transition(
+  $properties: (
+    all,
+  ),
+  $duration: $transition-duration,
+  $delay: null,
+  $easing: $easing
+) {
   transition: $value;
 
   $value: null;
@@ -84,7 +91,7 @@
   margin-left: auto;
   max-width: 625px;
 
-  @include respond-to('medium') {
+  @include respond-to("medium") {
     display: grid;
     max-width: 100%;
 

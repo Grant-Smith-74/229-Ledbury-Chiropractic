@@ -8,7 +8,7 @@ fieldset {
   display: grid;
 
   grid-template-columns: 1fr;
-  @include respond-to('medium') {
+  @include respond-to("medium") {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
   }
@@ -17,11 +17,10 @@ fieldset {
 .horizontal-field > * + * {
   margin-top: $size-scale-200;
 
-  @include respond-to('medium'){
+  @include respond-to("medium") {
     margin-top: 0;
   }
 }
-
 
 label {
   display: block;
@@ -37,10 +36,10 @@ label {
   }
 }
 
-input[type=text],
-input[type=date],
-input[type=time],
-input[type=email],
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="email"],
 textarea,
 select {
   padding: $size-scale-200;
@@ -51,11 +50,11 @@ select {
   background-color: $white;
   color: $text;
 
-  appearance:none;
-  @include fluid-font(3vw, 0.781em, 0.938em, 13.75px);
+  appearance: none;
+  font-size: clamp(0.781rem, 0.7182rem + 0.314vw, 0.938rem);
 }
 
-input[type=radio] {
+input[type="radio"] {
   margin: 0;
   padding: 0;
 }
@@ -77,11 +76,11 @@ input::placeholder {
   color: $quaternary-glare;
 }
 
-input[type=text]:focus,
-input[type=date]:focus,
-input[type=time]:focus,
-input[type=email]:focus,
-input[type=radio]:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="email"]:focus,
+input[type="radio"]:focus,
 textarea:focus,
 select:focus {
   outline: none !important;
@@ -90,7 +89,7 @@ select:focus {
 }
 
 select {
-  background-image: url('/assets/svg/down-arrow.svg');
+  background-image: url("/assets/svg/down-arrow.svg");
   background-position-x: 94%;
   background-position-y: center;
   background-repeat: no-repeat;
@@ -142,7 +141,6 @@ select {
     color: $text;
     line-height: 25px;
   }
-
 }
 
 .checkbox_cnt:hover input ~ .checkmark,

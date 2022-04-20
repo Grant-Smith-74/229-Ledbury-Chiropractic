@@ -8,19 +8,19 @@ h4 {
 
 h1,
 .h1 {
-  @include fluid-font(3vw, 1.944rem, 2.333rem, 34.21px);
+  font-size: clamp(1.944rem, 1.7884rem + 0.778vw, 2.333rem);
 }
 
 h2,
 .h2 {
-  @include fluid-font(3vw, 1.620rem, 1.944rem, 28.51px);
+  font-size: clamp(1.62rem, 1.4904rem + 0.648vw, 1.944rem);
 }
 
 h3,
 .h3 {
-  @include fluid-font(3vw, 1.350rem, 1.620rem, 23.76px);
+  font-size: clamp(1.35rem, 1.242rem + 0.54vw, 1.62rem);
 }
 
 .small {
-  @include fluid-font(3vw, 0.781rem, 0.938rem, 13.75px);
+  font-size: clamp(0.781rem, 0.7182rem + 0.314vw, 0.938rem);
 }

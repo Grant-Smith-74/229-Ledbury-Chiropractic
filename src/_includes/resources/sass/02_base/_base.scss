@@ -6,8 +6,7 @@ body {
   font-family: $family-primary;
   line-height: $leading-loose;
   font-weight: $normal;
-
-  @include fluid-font(3vw, 1em, 1.125em, 17px);
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
   text-rendering: optimizeSpeed;
 
   &.noScroll {

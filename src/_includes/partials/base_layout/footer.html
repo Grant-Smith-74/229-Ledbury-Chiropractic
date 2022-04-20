@@ -2,20 +2,21 @@
   <div class="wrapper">
     <div class="columns col-2">
       <div class="column">
-        <p class="legal">&copy; {{ site.name }} <span id="year"></span>  |  <a href="{{ site.url }}" title="{{ site.tagline }}">{{ site.tagline }}</a>  |  <a href="/privacy-and-cookies-policy" title="{{ site.tagline }}">Privacy and Cookie Policy</a></p>
+        <p class="legal">
+          &copy; {{ site.name }} <span id="year"></span> |
+          <a href="{{ site.url }}" title="{{ site.tagline }}"
+            >{{ site.tagline }}</a
+          >
+          |
+          <a href="/privacy-and-cookies-policy" title="{{ site.tagline }}"
+            >Privacy and Cookie Policy</a
+          >
+        </p>
       </div>
       <div class="column">
         <div class="transition">
-          <a class="promo" href="https://www.transition-creative.co.uk/" target="_blank" rel="noopener" title="Transition Creative, Web Design Studio, Gloucester">
-            Site made with
-            <svg class="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-              <path d="M10 3.22l-.61-.6a5.5 5.5 0 0 0-7.78 7.77L10 18.78l8.39-8.4a5.5 5.5 0 0 0-7.78-7.77l-.61.61z" />
-            </svg>
-            by
-            <figure class="picture">
-              <img src="/assets/img/transition-creative-logo.png" alt="Transition Creative, Web Design Studio, Gloucester" width="30" height="30" class="image-swap lazyload">
-            </figure>
-          </a>
+          <built-by></built-by>
+          <script src="//app.doddle.agency/builtby.js" defer></script>
         </div>
       </div>
     </div>
@@ -25,7 +26,21 @@
 <script src="/assets/js/main.js" type="text/javascript"></script>
 {% else -%}
 <script src="/assets/js/main.min.js" type="text/javascript"></script>
-<script src="https://cdn.usefathom.com/script.js" data-site="WABXWZQK" defer></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0B5METJKL6"></script>
-<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-0B5METJKL6');</script>
+<script
+  src="https://cdn.usefathom.com/script.js"
+  data-site="WABXWZQK"
+  defer
+></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-0B5METJKL6"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-0B5METJKL6");
+</script>
 {% endif -%}
