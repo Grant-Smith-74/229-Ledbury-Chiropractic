@@ -1,8 +1,5 @@
 {
     "/dist/assets/js/main.js": "/dist/assets/js/main.js",
-    "/dist/assets/css/critical.css": "/dist/assets/css/critical.css",
-    "/dist/assets/js/main.js.map": "/dist/assets/js/main.js.map",
-    "/dist/assets/css/critical.css.map": "/dist/assets/css/critical.css.map",
     "/dist/assets/js/map.js": "/dist/assets/js/map.js",
-    "/dist/assets/js/map.js.map": "/dist/assets/js/map.js.map"
+    "/dist/assets/css/critical.css": "/dist/assets/css/critical.css"
 }

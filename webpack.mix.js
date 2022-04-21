@@ -2,19 +2,18 @@ let mix = require("laravel-mix");
 
 // Run mix
 mix
-  .sass("src/_includes/resources/sass/critical.scss", "dist/assets/css/")
-  .js("src/_includes/resources/js/main.js", "dist/assets/js/")
-  .js("src/_includes/resources/js/map.js", "dist/assets/js/")
-  .version()
+  .sass("./src/_includes/resources/sass/critical.scss", "./dist/assets/css/")
+  .js("./src/_includes/resources/js/main.js", "./dist/assets/js/")
+  .js("./src/_includes/resources/js/map.js", "./dist/assets/js/")
   .sourceMaps(true, "source-map");
 
 // Production only
 if (mix.inProduction()) {
   mix
     // Minifies CSS & JS files
-    .minify('dist/assets/css/critical.css').version()
-    .minify('dist/assets/js/main.js').version()
-    .minify('dist/assets/js/map.js').version();
+    .minify("./dist/assets/css/critical.css")
+    .minify("./dist/assets/js/main.js")
+    .minify("./dist/assets/js/map.js");
 }
 // Full API
 // mix.js(src, output);

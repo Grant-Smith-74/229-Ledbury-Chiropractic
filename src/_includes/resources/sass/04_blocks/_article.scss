@@ -10,7 +10,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 
-  @include respond-to('medium'){
+  @include respond-to("medium") {
     padding: $size-scale-800;
   }
 
@@ -20,11 +20,11 @@
       &:before {
         position: absolute;
         top: 0;
-        content: '';
+        content: "";
         display: block;
         background-color: $border;
 
-        @include respond-to('medium'){
+        @include respond-to("medium") {
           left: -1.5rem;
           width: 1px;
           height: 100%;
