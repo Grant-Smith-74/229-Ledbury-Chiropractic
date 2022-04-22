@@ -9,7 +9,7 @@ citation_03: "I have been suffering from feeling crooked when riding, I could fe
 author_03: "Miss L. Pincus. 2019"
 ---
 
-Here is a selection of videos, website links and downloads that provide more information about chiropractic and back care. We hope you find them useful.
+Here is a selection of website links and posture information sheets that provide more information about chiropractic and back care. We hope you find them useful.
 
 If you have any questions about whether chiropractic could help you, [please get in touch for an informal, no obligation, conversation](/contact/ "Contact Ledbury Chiropractic Clinic Ltd").
 
