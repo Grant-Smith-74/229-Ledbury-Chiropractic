@@ -17,18 +17,14 @@ This includes an appropriate physical examination. Your chiropractor will also p
 
 If the chiropractor feels able to help you, no further investigations (for example MRI or x-ray) are required and you are happy to proceed, treatment may commence at your first visit.
 
-**Treatment: £50.00**
+**Treatment: £52.00**
 
 Treatments are usually scheduled for 30 minutes long and will incorporate some or all of the manual therapies outlined in What is Chiropractic?
 
-**Case review & treatment: £70.00**
+**Case review & treatment: £90.00**
 
 At your initial consultation, your chiropractor and you will agree on a proposed treatment plan, which will include the number of treatments needed within a specified time period. At the end of this plan of management, a case review is performed to evaluate progress and consider the next stage whether that be further treatment (in which case a further treatment plan will be agreed) or discharge from care.
 
-**Case review (no treatment): £60.00**
-
-**New condition & treatment: £70.00**
+**New condition & treatment: £90.00**
 
 This is a consultation regarding a new condition. It includes a full assessment of the condition, but does not include a full health assessment as this is already on file from the initial consultation.
-
-**New condition (no treatment): £60.00**
